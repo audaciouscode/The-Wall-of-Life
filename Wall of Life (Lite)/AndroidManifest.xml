@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.audacious_software.android.life_wallpaper.lite"
+      android:versionCode="105"
+      android:versionName="1.05">
+    <application android:label="@string/app_name" android:icon="@drawable/thumbnail" android:allowBackup="true" android:description="@string/blurb">
+        <service
+            android:label="@string/app_name"
+            android:name=".LifeWallpaperService"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/life" />
+        </service>
+        <activity
+            android:label="@string/app_name"
+            android:name=".LifeWallpaperSettings"
+            android:exported="true">
+        </activity>
+    </application>
+    <uses-sdk android:minSdkVersion="7" />
+	<uses-feature android:name="android.software.live_wallpaper" />
+</manifest>

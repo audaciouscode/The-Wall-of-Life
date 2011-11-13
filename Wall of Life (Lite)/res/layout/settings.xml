@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Display Settings">
+		<ListPreference
+        	android:title="Cell Type"
+			android:summary="Shape of the cells."
+			android:key="cellType"
+			android:defaultValue="rounded"
+			android:entries="@array/typeLabels"
+            android:entryValues="@array/typeValues" />
+		<ListPreference
+        	android:title="Cell Color"
+			android:summary="Color of the cells."
+			android:key="cellColor"
+			android:defaultValue="0xff808080"
+			android:entries="@array/colorLabels"
+            android:entryValues="@array/colorValues" />
+		<Preference
+        	android:title="Upgrade to the Full Version"
+			android:summary="Tap here for more options by upgrading to the full version."
+			android:key="getlife"
+			android:defaultValue="10"></Preference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Feedback">
+		<Preference
+        	android:title="Send Feedback via E-Mail"
+			android:summary="Bug, suggestion, or helpful comment? Please send us an e-mail."
+			android:key="sendfeedback"
+			android:defaultValue="10"></Preference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="More Information">
+		<Preference
+        	android:title="About Conway's &quot;Game of Life&quot;"
+			android:summary="Read more about this at Wikipedia."
+			android:key="aboutlife"
+			android:defaultValue="10"></Preference>
+		<Preference
+        	android:title="About Audacious Software"
+			android:summary="Learn more about the wallpaper's developer."
+			android:key="aboutaudacious"
+			android:defaultValue="10"></Preference>
+
+	</PreferenceCategory>
+	
+</PreferenceScreen>

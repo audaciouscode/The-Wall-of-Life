@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="pixelLabels">
+        <item>10 pixels</item>
+        <item>15 pixels</item>
+        <item>20 pixels</item>
+        <item>25 pixels</item>
+    </string-array>
+
+    <string-array name="pixelValues">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+
+	<string-array name="typeLabels">
+        <item>Square</item>
+        <item>Rounded Square</item>
+        <item>Circle</item>
+    </string-array>
+
+    <string-array name="typeValues">
+        <item>square</item>
+        <item>rounded</item>
+        <item>circle</item>
+    </string-array>
+
+	<string-array name="colorLabels">
+		<item>Red</item>
+		<item>Orange</item>
+		<item>Yellow</item>
+		<item>Green</item>
+		<item>Blue</item>
+		<item>Indigo</item>
+		<item>Violet</item>
+		<item>Black</item>
+		<item>Dark Grey</item>
+		<item>Grey</item>
+		<item>Light Grey</item>
+		<item>White</item>
+    </string-array>
+
+    <string-array name="colorValues">
+		<item>#ffff0000</item>
+		<item>#ffffa500</item>
+		<item>#ffffff00</item>
+		<item>#ff008000</item>
+		<item>#ff0000ff</item>
+		<item>#ff4b0082</item>
+		<item>#ffee82ee</item>
+		<item>#ff000000</item>
+		<item>#ff404040</item>
+		<item>#ff808080</item>
+		<item>#ffb0b0b0</item>
+		<item>#ffffffff</item>
+    </string-array>
+
+	<string-array name="spanLabels">
+		<item>1000 milliseconds</item>
+		<item>500 milliseconds</item>
+		<item>250 milliseconds</item>
+		<item>100 milliseconds</item>
+		<item>50 milliseconds</item>
+    </string-array>
+
+    <string-array name="spanValues">
+		<item>1000</item>
+		<item>500</item>
+		<item>250</item>
+		<item>100</item>
+		<item>50</item>
+    </string-array>
+
+</resources>
